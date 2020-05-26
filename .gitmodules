@@ -1,0 +1,3 @@
+[submodule "scripts/random-tests"]
+	path = scripts/random-tests
+	url = https://github.com/dj-on-github/sp800_22_tests
