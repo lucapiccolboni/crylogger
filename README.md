@@ -4,8 +4,7 @@
 
 *CRYLOGGER* detects crypto misuses for you automatically, without requiring to analyze a single line of your code. First, *CRYLOGGER* runs your Android app on the official Android [Emulator](https://developer.android.com/studio/run/emulator), whose Java libraries have been instrumented to log the parameters passed to the relevant crypto APIs. Then, it analyzes the log file offline and reports all the crypto misuses.  Differently from other approaches, it does *not* employ static analysis. *CRYLOGGER* runs your app by using [Monkey](https://developer.android.com/studio/test/monkey) or the user-interface events you send to the emulator.
 
-If you want to know more about *CRYLOGGER*, please contact me at
-piccolboni@cs.columbia.edu or read our Oakland paper:
+If you want to know more about *CRYLOGGER*, please contact me at piccolboni@cs.columbia.edu or read our [Oakland paper](https://arxiv.org/abs/2007.01061):
 
 ```
 Luca Piccolboni, Giuseppe Di Guglielmo, Luca P. Carloni and Simha Sethumadhavan, "CRYLOGGER:
