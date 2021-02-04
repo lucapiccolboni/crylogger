@@ -3,8 +3,8 @@
 # Author: Luca Piccolboni (piccolboni@cs.columbia.edu)
 # This script downloads the OpenGApps and installs them
 
-OPENGAPPS_NAME="open_gapps-x86-9.0-super-20200930.zip"
-OPENGAPPS_LINK="https://sourceforge.net/projects/opengapps/files/x86/20200930/${OPENGAPPS_NAME}"
+OPENGAPPS_NAME="open_gapps-x86-9.0-super-20210127.zip"
+OPENGAPPS_LINK="https://sourceforge.net/projects/opengapps/files/x86/20210127/${OPENGAPPS_NAME}"
 
 # 1. Download OpenGApps
 wget ${OPENGAPPS_LINK} &>/dev/null

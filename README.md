@@ -37,7 +37,7 @@ cd scripts/setup
 ./setup_opengapps.sh
 ```
 
-The OpenGApps (*x86-9.0-super-20200103*) are downloaded in `script/opengapps` so they can be installed on the emulator.
+The OpenGApps (*x86-9.0-super-20210127*) are downloaded in `script/opengapps` so they can be installed on the emulator.
 
 ***
 
