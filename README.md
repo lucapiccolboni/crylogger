@@ -97,7 +97,11 @@ python check.py --work_dir data/crypto_logs --rule_ID 03
 You should obtain a file with extension `.rules` in the directory `scripts/data/crypto_logs` that tells you if rule *R-03* is violated. For the app included in this repository the rule should be violated because the app performs encryptions and decryptions by using the insecure ECB mode. Note that some rules require two executions of your app, thus you need to run the script `run.py` twice. The second run should look like this:
 
 ```bash
-cd scripts
+# Start emulator
+cd android-emu
+emulator -writable-system
+# Run the script
+cd ../scripts
 python run.py --work_dir data --session emulator-<number> --suffix 2
 ```
 
