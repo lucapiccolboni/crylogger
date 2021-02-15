@@ -403,12 +403,12 @@ def check_rule_R02(args):
 
 def check_rule_R03(args):
 
-    # Don't use the operation mode ECB with > 1 block
+    # Don't use the operation mode ECB with AES with > 1 block
 
     fail = 0
     str1 = "[Cipher] out bytes: "
     str2 = " with "
-    str3 = "ECB"
+    str3 = "AES/ECB"
 
     print_start(args)
 
